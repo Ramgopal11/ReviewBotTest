@@ -1,7 +1,7 @@
 # Violates GitlabChecker1: Line length exceeds 80 characters
 characters = "This is a long line"
 
-# Violates GitlabChecker2: Contains ".printStackTrace()"
+# Violates GitlabChecker2: Contains ".()"
 try:
     some_function_that_might_raise_an_exception()
 except Exception as e:
@@ -10,7 +10,7 @@ except Exception as e:
 # Violates GitlabChecker3: Contains '@Value("${' without ':'
 private String someProperty;
 
-# Violates GitlabChecker4: Contains 'Turbonomic', 'CWOM', or 'IWO'
+# Violates GitlabChecker4: Contains '', '', or ''
 localized_string = "This is a localized string."
 
 # Violates GitlabChecker5: Proto file with required and repeated fields
